@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(3, 2, 2, 0.473),rgba(29, 24, 24, 0.808)), url(./wfvIqPTnAZAzmEjpJU9jERP18UI-1920.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.first-section li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+}
+.first-section a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    line-height: 25px;
+}
+.content button{
+    width: 200px;
+    padding: 15px 0px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(7, 253, 233);
+}
+.content button:hover{
+    border: 1px solid white;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .3s;
+    border-top-right-radius: 0px;
+}
+.second-section{
+    width:100% ;
+    height:100vh ;
+    background: linear-gradient(rgba(3, 2, 2, 0.473),rgba(29, 24, 24, 0.808)), url(./55d560dd8cb5895cd363b2c305da8f9a.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+     width: 350px;
+     height: 450px;
+     border: 1px solid white;
+     background: linear-gradient(rgba(235, 225, 225, 0.281),rgba(36, 24, 24, 0.932)), url(https://avatars.mds.yandex.net/get-mpic/1865974/img_id3784218968935408629.jpeg/orig);
+     /* background-position: center; */
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 16px;
+}
+.card1{
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    background: linear-gradient(rgba(2, 2, 2, 0.281),rgba(36, 24, 24, 0.932)), url(./79a37e8a5eab1a6f4121bbe4ddd25de2.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.card2{
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    background: linear-gradient(rgba(19, 18, 18, 0.281),rgba(36, 24, 24, 0.932)), url(./39c19f94e8cdccfa662916a9fffc70bb.jpg);+
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.card3{
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    background: linear-gradient(rgba(235, 225, 225, 0.281),rgba(36, 24, 24, 0.932)), url(./c30a4d9d5cee604fe65e7e5cd67c7efa.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.card-text{
+    width: 100%;
+    height: 80%;
+    
+}
+.card-button{
+    width: 100%;
+    height:20% ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.card-button button{
+    width: 200px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 3px solid rgb(6, 250, 217);
+    color: white;
+    border-radius: 20px;
+    text-transform:uppercase ;
+    cursor: pointer;
+    
+
+}
+.card-button button:hover{
+    transform: scale(1.03);
+   
+    transition: all 0.5s;
+
+}
+.card-text h1{
+    color: white;
+}
+.card-text p{
+    color: white;
+    display: none;
+    font-size: 22px;
+    /* text-align: justify; */
+}
+
+.card:hover{
+    transform: scale(1.03);
+   
+    border-radius: 16px;
+    transition: all 0,5s;
+}
+.card:hover p{
+    display: block;
+    transition: all 0,5s;
+}
+.card:hover h1{
+    display: none;
+    transition: 0,5s;
+}
+.card-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color: #5e5f61;
+    color: #ccc;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 180px;
+    margin: 10px;
+  }
+  .footer-column ul {
+    list-style: none;
+  } 
